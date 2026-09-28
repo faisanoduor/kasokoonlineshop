@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kasoko Online Burundi — Curated Accessories from Bujumbura</title>
+  <meta name="description" content="Kasoko Online Burundi — discover handcrafted bags, jewelry, watches and accessories shipped across Bujumbura and beyond." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a href="#" class="brand">
+        <img src="assets/Kasoko_logo.png" alt="Kasoko Logo" class="logo">
+        <span class="brand-name">Kasoko</span>
+        <span class="brand-sub">Online shopping Burundi</span>
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#collection">Shop</a>
+        <a href="#categories">Categories</a>
+        <a href="#story">Story</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      
+    </div>
+  </header>
+
+  <section class="hero">
+    <img src="assets/hero.jpg" alt="Curated accessories" class="hero-img" />
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <span class="badge">● From Burundi · To world</span>
+      <h1>Accessories that define your style.</h1>
+      <p>Kasoko Online Burundi brings you trendy bags, jewelry, watches, sunglasses, wallets, and everyday fashion accessories — carefully selected to upgrade your look for every occasion.</p>
+      <div class="hero-cta">
+        <a href="#collection" class="btn btn-hero">Shop the collection</a>
+        <a href="#story" class="btn btn-ghost">Our story</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="categories" class="categories">
+    <div class="container">
+      <div class="cat-grid" id="catGrid"></div>
+    </div>
+  </section>
+
+  <section id="collection" class="collection">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow">The Collection</span>
+          <h2>Pieces, lovingly chosen.</h2>
+        </div>
+        <p>Each item is hand-picked from artisans across Burundi and East Africa — small batches, lasting craft.</p>
+      </div>
+      <div class="product-grid" id="productGrid"></div>
+    </div>
+  </section>
+
+  <section id="story" class="story">
+    <div class="container story-inner">
+      <span class="eyebrow">Our Story</span>
+      <h2>From Bujumbura, with care.</h2>
+      <p>Kasoko began as a love letter to Burundian craft. Each piece in our collection is selected for its soul, its maker, and the moments it will live through.</p>
+    </div>
+  </section>
+
+  <footer id="contact" class="footer">
+    <div class="container footer-grid">
+      <div>
+        <h3 class="brand-name light">Kasoko</h3>
+        <p class="brand-sub light">Online Burundi</p>
+        <p class="footer-about">Curated accessories from the heart of Bujumbura. Crafted with care, delivered with love.</p>
+      </div>
+      <div class="footer-cols">
+        <div>
+          <h4>Shop</h4>
+          <ul>
+            <li><a href="#collection">All products</a></li>
+            <li><a href="#categories">Bags</a></li>
+            <li><a href="#categories">Jewelry</a></li>
+            <li><a href="#categories">Watches</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Visit</h4>
+          <ul>
+            <li>Avenue de la Liberté</li>
+            <li>Bujumbura, Burundi</li>
+            <li>+254 797 691323</li>
+            <li>ieddyfranck1992@gmail.com</li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <h4>Stay in touch</h4>
+        <p class="muted-light">New arrivals and stories, monthly.</p>
+        <form class="newsletter" onsubmit="event.preventDefault(); alert('Thanks for subscribing!');">
+          <input type="email" placeholder="your@email.com" required />
+          <button type="submit" class="btn btn-gold">Join</button>
+        </form>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© <span id="year"></span> Kasoko Online Burundi. All rights reserved.</p>
+      <p>Handcrafted in Bujumbura.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
