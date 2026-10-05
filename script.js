@@ -26,7 +26,7 @@ function normalizeProduct(p) {
     : String(rawPrice ?? "");
 
   let img = p.img ?? p.image ?? p.image_url ?? "";
-  if (img && !/^https?:\\/\\//i.test(img) && !img.startsWith("/")) {
+  if (img && !/^https?:\/\//i.test(img) && !img.startsWith("/")) {
     img = img.replace(/^\.\\//, "");
   }
 
