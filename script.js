@@ -27,7 +27,7 @@ function normalizeProduct(p) {
 
   let img = p.img ?? p.image ?? p.image_url ?? "";
   if (img && !/^https?:\/\//i.test(img) && !img.startsWith("/")) {
-    img = img.replace(/^\.\\//, "");
+    img = img.replace(/^\.\//, "");
   }
 
   return {
